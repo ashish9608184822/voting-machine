@@ -1,0 +1,71 @@
+A Electronic voting machine is basically a digital machine that accepts votes and display the result.IN this blog we are gonna know about how to design a model of 
+simple electronic machine in C
+The project is divided into few parts
+->The program first asks to enter the information of the participants participating in the election and a symbol(only special characters) for each of them.
+  Restriction: Any two people taking the two symbol should not be permitted,an error message should be displayed.
+
+->Entering the voter id present in the csv file click here for sample csv file .
+sample CSV:
+VOTER ID    NAME      AGE
+33589     Theon       38
+67840     Arya        79
+57949     John        35
+59485     Tyrion      38
+39486     Jaime       23
+69506     Cleagane    18
+73940     Jorah       72
+
+Restriction: A person should vote only once ,if the voted voter id is entered error symbol is displayed.
+
+->casting the vote- The voter will be allowed to vote a candidate by choosing the symbol.
+ Restriction:If wrong symbol is entered error message will be displayed.
+
+->Displaying option such as
+•	results
+•	difference
+•	finish voting
+•	exit the poll
+->Once the 4th option is entered that is to exit the poll.The candidates information like name,symbol and final number of votes are displayed. And the special thing is that 
+one file for each participant will be displayed containing his details..
+
+
+
+SWOT ANALTSIS
+Strength : *resourece availability
+           *skill level
+           *research
+           *system development
+           *continuous integration
+WEAKNESS : *Time scale deadlines
+           *processes
+OPPORTUNITIES : *Current system
+                *skill development
+THREATS : *obstacles to be faced
+          *competitive intensions
+          *emphasis on limited schemes
+          
+          
+ 4 W's and 1 H
+Who
+Anyone who are interested to revise there basics concepts in C can play the game to relax.
+
+What
+This project is concerned about developing a game which makes us to think basics to win the game.
+
+When
+The students are encouraged to think more about basics. Which can help them in learning C language for there future.
+
+Why
+As this project uses C programming language it can be easy to understand the logic.
+
+How
+Implemented using Functions , loops and other functionalities of C.
+
+Basic requirements that very essential are:
+Operating System: Windows, Linux or any other operating system
+
+Front end tool: Visual Studio Code
+
+Programming language used: C
+
+gcc compiler with a good system.      
